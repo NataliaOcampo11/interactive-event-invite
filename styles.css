@@ -1,0 +1,74 @@
+body {
+    background-color: #ede5ff; /* Sets a light purple background */
+    font-family: Arial, sans-serif; /* Sets the text font */
+    margin: 0; /* Removes default page spacing */
+    padding: 20px; /* Adds space around the page */
+}
+
+.container {
+    background-color: white; /* Sets a white container background */
+    max-width: 500px; /* Limits the container width */
+    margin: 40px auto; /* Centers the container horizontally */
+    padding: 25px; /* Adds space inside the container */
+    border-radius: 15px; /* Rounds the container corners */
+    text-align: center; /* Centers the text */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+}
+
+h1 {
+    color: #7028d8; /* Sets a vibrant purple heading */
+    font-size: 36px; /* Makes the main heading larger */
+}
+
+h2 {
+    color: #d63384; /* Sets a festive pink subheading */
+    font-size: 24px; /* Sets the subheading size */
+}
+
+p {
+    color: #444444; /* Sets a dark gray text color */
+    line-height: 1.6; /* Adds space between lines */
+    font-size: 16px; /* Sets the paragraph text size */
+}
+
+.event-details {
+    background-color: #fff1c7; /* Sets a light yellow background */
+    padding: 15px; /* Adds space inside the event details */
+    border-radius: 10px; /* Rounds the corners */
+    margin: 20px 0; /* Adds space above and below */
+    text-align: left; /* Aligns event details to the left */
+}
+
+label {
+    display: block; /* Places each label on its own line */
+    text-align: left; /* Aligns labels to the left */
+    margin-bottom: 8px; /* Adds space below each label */
+    font-weight: bold; /* Makes the labels bold */
+}
+
+input, select {
+    width: 100%; /* Makes the controls fill the container */
+    padding: 12px; /* Adds space inside the controls */
+    margin-bottom: 20px; /* Adds space between form controls */
+    border: 1px solid #cccccc; /* Adds a light gray border */
+    border-radius: 6px; /* Rounds the control corners */
+    font-size: 16px; /* Makes the text easy to read */
+    box-sizing: border-box; /* Prevents controls from overflowing */
+}
+
+button {
+    background-color: #7028d8; /* Sets a vibrant purple button */
+    color: white; /* Makes the button text white */
+    width: 100%; /* Makes the button fill the container */
+    padding: 14px; /* Adds space inside the button */
+    border: none; /* Removes the default border */
+    border-radius: 6px; /* Rounds the button corners */
+    font-size: 18px; /* Sets the button text size */
+    cursor: pointer; /* Shows a hand when hovering */
+}
+
+#message {
+    color: #7028d8; /* Sets the confirmation message color */
+    font-weight: bold; /* Makes the confirmation bold */
+    font-size: 18px; /* Makes the confirmation easy to read */
+}
