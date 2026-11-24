@@ -1,74 +1,92 @@
 body {
-    background-color: #ede5ff; /* Sets a light purple background */
+    background-color: #ede5ff; /* Sets the default background */
     font-family: Arial, sans-serif; /* Sets the text font */
-    margin: 0; /* Removes default page spacing */
+    margin: 0; /* Removes default spacing */
     padding: 20px; /* Adds space around the page */
+    min-height: 100vh; /* Fills the browser window */
+    box-sizing: border-box; /* Prevents extra spacing */
+    background-position: center; /* Centers the GIF */
+    background-size: cover; /* Makes the GIF cover the window */
+    background-repeat: no-repeat; /* Prevents the GIF from repeating */
+    background-attachment: fixed; /* Keeps the background in place */
 }
 
 .container {
-    background-color: white; /* Sets a white container background */
+    background-color: rgba(255, 255, 255, 0.85); /* Makes the background transparent */
     max-width: 500px; /* Limits the container width */
-    margin: 40px auto; /* Centers the container horizontally */
+    margin: 40px auto; /* Centers the container */
     padding: 25px; /* Adds space inside the container */
-    border-radius: 15px; /* Rounds the container corners */
+    border-radius: 15px; /* Rounds the corners */
     text-align: center; /* Centers the text */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
 }
 
 h1 {
     color: #7028d8; /* Sets a vibrant purple heading */
-    font-size: 36px; /* Makes the main heading larger */
+    font-size: 36px; /* Makes the heading larger */
 }
 
 h2 {
-    color: #d63384; /* Sets a festive pink subheading */
+    color: #d63384; /* Sets a festive pink color */
     font-size: 24px; /* Sets the subheading size */
 }
 
 p {
     color: #444444; /* Sets a dark gray text color */
     line-height: 1.6; /* Adds space between lines */
-    font-size: 16px; /* Sets the paragraph text size */
+    font-size: 16px; /* Sets the paragraph size */
 }
 
 .event-details {
     background-color: #fff1c7; /* Sets a light yellow background */
-    padding: 15px; /* Adds space inside the event details */
+    padding: 15px; /* Adds space inside */
     border-radius: 10px; /* Rounds the corners */
     margin: 20px 0; /* Adds space above and below */
-    text-align: left; /* Aligns event details to the left */
+    text-align: left; /* Aligns the text to the left */
 }
 
 label {
-    display: block; /* Places each label on its own line */
+    display: block; /* Places labels on their own line */
     text-align: left; /* Aligns labels to the left */
-    margin-bottom: 8px; /* Adds space below each label */
-    font-weight: bold; /* Makes the labels bold */
+    margin-bottom: 8px; /* Adds space below labels */
+    font-weight: bold; /* Makes labels bold */
 }
 
 input, select {
-    width: 100%; /* Makes the controls fill the container */
-    padding: 12px; /* Adds space inside the controls */
-    margin-bottom: 20px; /* Adds space between form controls */
-    border: 1px solid #cccccc; /* Adds a light gray border */
-    border-radius: 6px; /* Rounds the control corners */
-    font-size: 16px; /* Makes the text easy to read */
-    box-sizing: border-box; /* Prevents controls from overflowing */
+    width: 100%; /* Fills the container width */
+    padding: 12px; /* Adds space inside */
+    margin-bottom: 20px; /* Separates form controls */
+    border: 1px solid #cccccc; /* Adds a gray border */
+    border-radius: 6px; /* Rounds the corners */
+    font-size: 16px; /* Sets the text size */
+    box-sizing: border-box; /* Prevents overflowing */
 }
 
 button {
-    background-color: #7028d8; /* Sets a vibrant purple button */
-    color: white; /* Makes the button text white */
-    width: 100%; /* Makes the button fill the container */
-    padding: 14px; /* Adds space inside the button */
+    background-color: #7028d8; /* Sets the purple button color */
+    color: white; /* Makes the text white */
+    width: 100%; /* Fills the container width */
+    padding: 14px; /* Adds space inside */
     border: none; /* Removes the default border */
-    border-radius: 6px; /* Rounds the button corners */
-    font-size: 18px; /* Sets the button text size */
+    border-radius: 6px; /* Rounds the corners */
+    font-size: 18px; /* Sets the text size */
     cursor: pointer; /* Shows a hand when hovering */
 }
 
 #message {
-    color: #7028d8; /* Sets the confirmation message color */
-    font-weight: bold; /* Makes the confirmation bold */
-    font-size: 18px; /* Makes the confirmation easy to read */
+    color: #7028d8; /* Sets the confirmation color */
+    font-weight: bold; /* Makes the message bold */
+    font-size: 18px; /* Makes the message larger */
+}
+
+/* Adjusts the layout for phones */
+@media (max-width: 600px) {
+    .container {
+        margin: 15px auto; /* Reduces outside spacing */
+        padding: 20px; /* Reduces inside spacing */
+    }
+
+    h1 {
+        font-size: 28px; /* Makes the heading smaller */
+    }
 }
